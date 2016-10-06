@@ -23,6 +23,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <NuGetPackageImportStamp>e0f8403d</NuGetPackageImportStamp>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,8 +43,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AppHealth, Version=1.0.1.20394, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AppHealth.1.0.3\lib\net452\AppHealth.dll</HintPath>
+    <Reference Include="AppHealth, Version=1.0.1.14285, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AppHealth.1.0.15\lib\net452\AppHealth.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -207,7 +208,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
