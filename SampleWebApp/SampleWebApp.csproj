@@ -48,7 +48,7 @@
       <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="AppHealth, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="AppHealth">
       <HintPath>..\packages\AppHealth.1.0.26\lib\net452\AppHealth.dll</HintPath>
       <Private>True</Private>
     </Reference>
